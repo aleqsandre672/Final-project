@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: grey;
+  z-index: 2;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  font-weight: 600;
+  vertical-align: top;
+  margin-left: 95px;
+}
+header nav {
+  margin-top: 20px;
+}
+header img {
+  height: 82px;
+  margin-left: 75px;
+}
+header #active {
+  color: white;
+}
+
+#start {
+  height: 400px;
+  width: 100%;
+  background-image: url(/img/NES-featured-image.avif);
+  background-size: cover;
+  top: 80px;
+  position: relative;
+}
+#start p {
+  position: absolute;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  margin-top: 180px;
+  margin-left: 320px;
+}
+
+#slogan {
+  width: 1000px;
+  height: 340px;
+  background-color: grey;
+  margin-left: 250px;
+  position: relative;
+}
+#slogan p {
+  margin-top: 80px;
+  font-size: 23px;
+  font-weight: 600;
+  color: black;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+#slogan #list {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+#slogan .benefits {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+#slogan ul {
+  margin-left: 40px;
+}
+
+#registration {
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  margin-left: 400px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 470px;
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
