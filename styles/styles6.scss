@@ -1,0 +1,8 @@
+@import "reset";
+@import "media-queries";
+
+@import 'base6';
+
+@media #{$mobile} {
+    @import 'mobile6';
+}
