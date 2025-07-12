@@ -132,11 +132,13 @@ header #active {
   font-weight: 600;
   position: absolute;
   margin-left: 200px;
+  margin-left: 50px;
   margin-top: 150px;
   color: rgb(244, 163, 24);
 }
 #newsbuilding #creted2 {
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 #newstables {
@@ -154,17 +156,20 @@ header #active {
   border-style: solid;
   border-color: rgb(244, 163, 24);
   border-width: 10px;
+  margin-bottom: 50px;
 }
 #newstables p {
   font-size: 40px;
   font-weight: 600;
   position: absolute;
   margin-left: 200px;
+  margin-left: 50px;
   margin-top: 150px;
   color: rgb(244, 163, 24);
 }
 #newstables #creted3 {
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 #end {
