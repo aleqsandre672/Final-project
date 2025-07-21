@@ -1,0 +1,124 @@
+ nav > a{
+    display: none;
+}
+header{
+    height: 70px;
+    width: 306px;
+    img{
+        height: 70px;
+        
+        margin-left: 30px;
+    }
+    
+}
+#start{
+        height: 200px;
+        width: 306px;
+        top: 70px;
+        background-size: cover
+
+    }
+    #start > p{
+                position: absolute;
+        font-size: 25px;
+        text-align: center;
+        color: rgb(244, 163, 24);
+        padding-top: 80px;
+        margin: 0;
+        padding-left: 60px;
+        font-weight: 700;
+    }
+
+    #slogan{
+        top: 0px;
+        width: 306px;
+        margin: 0;
+        height: 1050px;
+        
+        .benefits{
+            font-size: 16px;
+            margin-top: 40px;
+        }
+        #list{
+            font-size: 16px;
+        }
+    }
+    #slogan > p{
+        padding-top: 20px;
+            font-size: 15px;
+            margin-top:10px;
+    }
+h1{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+#volleyball{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    p{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+#newbuilding{
+     width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    p{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+#tables{
+     width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    p{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+#unis{
+    font-size: 24px;
+    margin-left: 50px;
+}
+#partners{
+    width: 300px;
+    height: 1200px;
+     margin-left: 3px;
+     img{
+        margin-left: 50px
+     }
+}
+#end{
+    width: 306px;
+    height: 600px;
+    img{
+        height: 70px;
+        margin-left: 20px;
+    }
+    a{
+        font-size: 20px;
+        
+    }
+    #lists{
+        margin-left: 150px;
+    }
+    #universitys{
+        display: inline;
+        margin-left: 150px;
+        margin-top: 300px;
+    }
+    p{
+        font-size: 20px
+    }
+}
+#gmail{
+    display: none;
+}
+#number{
+    display: none;
+}

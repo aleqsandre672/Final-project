@@ -49,6 +49,10 @@ ol, ul {
   list-style: none;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 header {
   top: 0;
   position: fixed;
@@ -334,4 +338,186 @@ h1 {
   margin-left: 50px;
   margin-top: 80px;
   color: yellow;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  nav > a {
+    display: none;
+  }
+  header {
+    height: 70px;
+    width: 306px;
+  }
+  header img {
+    height: 70px;
+    margin-left: 30px;
+  }
+  #start {
+    height: 200px;
+    width: 306px;
+    top: 70px;
+    background-size: cover;
+  }
+  #start > p {
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(244, 163, 24);
+    padding-top: 80px;
+    margin: 0;
+    padding-left: 60px;
+    font-weight: 700;
+  }
+  #slogan {
+    top: 0px;
+    width: 306px;
+    margin: 0;
+    height: 1050px;
+  }
+  #slogan .benefits {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  #slogan #list {
+    font-size: 16px;
+  }
+  #slogan > p {
+    padding-top: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  #volleyball {
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+  }
+  #volleyball p {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #newbuilding {
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+  }
+  #newbuilding p {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #tables {
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+  }
+  #tables p {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #unis {
+    font-size: 24px;
+    margin-left: 50px;
+  }
+  #partners {
+    width: 300px;
+    height: 1200px;
+    margin-left: 3px;
+  }
+  #partners img {
+    margin-left: 50px;
+  }
+  #end {
+    width: 306px;
+    height: 600px;
+  }
+  #end img {
+    height: 70px;
+    margin-left: 20px;
+  }
+  #end a {
+    font-size: 20px;
+  }
+  #end #lists {
+    margin-left: 150px;
+  }
+  #end #universitys {
+    display: inline;
+    margin-left: 150px;
+    margin-top: 300px;
+  }
+  #end p {
+    font-size: 20px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  nav a {
+    display: none;
+  }
+  header {
+    width: 900px;
+  }
+  #start {
+    width: 900px;
+  }
+  #start p {
+    margin-left: 290px;
+  }
+  #slogan {
+    margin-left: 0px;
+    width: 900px;
+    height: 420px;
+  }
+  h1 {
+    margin-left: 350px;
+  }
+  #volleyball {
+    width: 700px;
+    height: 300px;
+    margin-left: 90px;
+  }
+  #volleyball p {
+    font-size: 50px;
+  }
+  #newbuilding {
+    width: 700px;
+    height: 300px;
+    margin-left: 90px;
+  }
+  #newbuilding p {
+    font-size: 50px;
+  }
+  #tables {
+    width: 700px;
+    height: 300px;
+    margin-left: 90px;
+  }
+  #tables p {
+    font-size: 50px;
+  }
+  #partners {
+    width: 900px;
+    height: 200px;
+  }
+  #partners img {
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin-left: 100px;
+  }
+  #end {
+    width: 900px;
+  }
+  #unis {
+    margin-left: 250px;
+  }
 }/*# sourceMappingURL=style.css.map */
