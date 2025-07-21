@@ -3,7 +3,7 @@
 }
 header{
     height: 70px;
-    width: 306px;
+    width: 425px;
     img{
         height: 70px;
         
@@ -12,28 +12,28 @@ header{
     
 }
 #start{
-        height: 200px;
-        width: 306px;
+        height: 400px;
+        width: 425px;
         top: 70px;
         background-size: cover
 
     }
     #start > p{
                 position: absolute;
-        font-size: 25px;
+        font-size: 35px;
         text-align: center;
         color: rgb(244, 163, 24);
-        padding-top: 80px;
+        padding-top: 150px;
         margin: 0;
-        padding-left: 60px;
+        padding-left: 70px;
         font-weight: 700;
     }
 
     #slogan{
         top: 0px;
-        width: 306px;
+        width: 425px;
         margin: 0;
-        height: 1050px;
+        height: 700px;
         
         .benefits{
             font-size: 16px;
@@ -49,52 +49,55 @@ header{
             margin-top:10px;
     }
 h1{
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 110px;
     
 }
 #volleyball{
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     margin-left: 20px;
     p{
-        font-size: 30px;
+        font-size: 50px;
         margin-top: 20px;
+        margin-left: 15px;
     }
 }
 #newbuilding{
-     width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     margin-left: 20px;
     p{
-        font-size: 30px;
+        font-size: 50px;
         margin-top: 20px;
+        margin-left: 15px;
     }
 }
 #tables{
-     width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     margin-left: 20px;
     p{
-        font-size: 30px;
+        font-size: 50px;
         margin-top: 20px;
+        margin-left: 15px;
     }
 }
 #unis{
-    font-size: 24px;
+    font-size: 40px;
     margin-left: 50px;
 }
 #partners{
-    width: 300px;
+    width: 400px;
     height: 1200px;
-     margin-left: 3px;
+     margin-left: 10px;
      img{
-        margin-left: 50px
+        margin-left: 100px
      }
 }
 #end{
-    width: 306px;
+    width: 425px;
     height: 600px;
     img{
         height: 70px;

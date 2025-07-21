@@ -214,4 +214,62 @@ header #active {
   font-weight: 500;
   position: absolute;
   margin: 30px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  nav a {
+    display: none;
+  }
+  header {
+    width: 425px;
+  }
+  header img {
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #begining {
+    margin-left: 100px;
+  }
+  .info {
+    width: 425px;
+    height: 600px;
+    margin-left: 0px;
+  }
+  .portrait {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  #achivments {
+    margin-left: 70px;
+  }
+  .portrait2 {
+    margin-left: 10px;
+    height: 250px;
+  }
+  .portrait2 #giving {
+    margin-top: 50px;
+    width: 400px;
+    height: 250px;
+  }
+  .info2 {
+    width: 425px;
+    height: 580px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
+  #end {
+    height: 500px;
+  }
+  #end #universitys {
+    margin-left: 270px;
+    position: absolute;
+    margin-top: 270px;
+  }
 }/*# sourceMappingURL=style2.css.map */
