@@ -1,0 +1,44 @@
+header{
+    nav{
+        a{
+            display: none;
+        }
+    }
+    img{
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+}
+h1{
+    margin-bottom: 20px;
+}
+#end{
+    width: 425px;
+    height: 600px;
+    img{
+        height: 70px;
+        margin-left: 20px;
+    }
+    a{
+        font-size: 20px;
+        
+    }
+    #lists{
+        margin-left: 150px;
+    }
+    #universitys{
+        display: inline;
+        margin-left: 150px;
+        margin-top: 300px;
+    }
+    p{
+        font-size: 20px
+    }
+}
+#gmail{
+    display: none;
+}
+#number{
+    display: none;
+}

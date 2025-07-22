@@ -181,4 +181,46 @@ hr {
 
 h1 {
   font-size: 36px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  header nav a {
+    display: none;
+  }
+  header img {
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  #end {
+    width: 425px;
+    height: 600px;
+  }
+  #end img {
+    height: 70px;
+    margin-left: 20px;
+  }
+  #end a {
+    font-size: 20px;
+  }
+  #end #lists {
+    margin-left: 150px;
+  }
+  #end #universitys {
+    display: inline;
+    margin-left: 150px;
+    margin-top: 300px;
+  }
+  #end p {
+    font-size: 20px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
 }/*# sourceMappingURL=styles6.css.map */
