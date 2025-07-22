@@ -6,5 +6,6 @@
 @media #{$mobile} {
     @import 'mobile3';
 }
-
-
+@media #{$tablet} {
+    @import 'tablet3';
+}

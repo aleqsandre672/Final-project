@@ -81,8 +81,8 @@ a{
 a{
     text-decoration: none;
 }
-.childsregistracion{
-   margin-left: 150px;
+.allservices{
+   margin-left: 250px;
    margin-top: 100px;
    width: 1000px;
    height: 300px;
@@ -90,4 +90,57 @@ a{
    border: solid;
    border-color: rgb(212, 140, 15);
    border-width: 10px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   
+   p{
+      margin-left: 250px;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(244, 163, 24);
+   }
+   
 }
+#help{
+      margin-left: 250px;
+   margin-top: 100px;
+   width: 1000px;
+   height: 300px;
+   background-color: lightgray;
+   border: solid;
+   border-color: rgb(212, 140, 15);
+   border-width: 10px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+  
+      p{
+     margin-left: 350px;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(244, 163, 24);}
+   }
+   #marks{
+      margin-left:250px;
+   margin-top: 100px;
+   width: 1000px;
+   height: 300px;
+   background-color: lightgray;
+   border: solid;
+   border-color: rgb(212, 140, 15);
+   border-width: 10px;
+   margin-bottom: 50px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+  
+      p{
+      margin-left: 350px;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(244, 163, 24);}
+   }

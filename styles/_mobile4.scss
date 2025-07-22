@@ -1,0 +1,78 @@
+header{
+    width: 425px;
+    nav{
+        a{
+            display: none;
+        }
+    }
+    img{
+        height: 70px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+}
+.allservices{
+    width: 405px;
+    margin-left: 0px;
+    height: 200px;
+    margin-top: 90px;
+    p{
+        margin-left: 50px;
+        font-size: 30px;
+        margin-top: 75px;
+        font-weight: 600;
+    }
+}
+#help{
+    width: 405px;
+    margin-left: 0px;
+    height: 200px;
+    margin-top: 90px;
+    p{
+        margin-left: 120px;
+        font-size: 30px;
+        margin-top: 75px;
+        font-weight: 600;
+    }
+}
+#marks{
+    width: 405px;
+    margin-left: 0px;
+    height: 200px;
+    margin-top: 90px;
+    p{
+        margin-left: 130px;
+        font-size: 30px;
+        margin-top: 75px;
+        font-weight: 600;
+    }
+}
+#end{
+    width: 425px;
+    height: 600px;
+    img{
+        height: 70px;
+        margin-left: 20px;
+    }
+    a{
+        font-size: 20px;
+        
+    }
+    #lists{
+        margin-left: 150px;
+    }
+    #universitys{
+        display: inline;
+        margin-left: 150px;
+        margin-top: 300px;
+    }
+    p{
+        font-size: 20px
+    }
+}
+#gmail{
+    display: none;
+}
+#number{
+    display: none;
+}

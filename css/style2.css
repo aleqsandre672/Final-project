@@ -123,8 +123,9 @@ header #active {
   border-bottom-right-radius: 20px;
 }
 .portrait #nameof {
-  margin-left: 40pxpx;
+  margin-left: 20px;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .portrait2 {
@@ -271,5 +272,43 @@ header #active {
     margin-left: 270px;
     position: absolute;
     margin-top: 270px;
+  }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  header {
+    width: 768px;
+  }
+  nav a {
+    display: none;
+  }
+  #begining {
+    margin-left: 270px;
+  }
+  .info {
+    margin-left: 0px;
+    width: 768px;
+    height: 310px;
+  }
+  .portrait {
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+  #achivments {
+    margin-left: 270px;
+    margin-bottom: 40px;
+  }
+  .portrait2 {
+    margin-left: 39px;
+  }
+  .info2 {
+    margin-left: 0px;
+    width: 768px;
+    height: 320px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
   }
 }/*# sourceMappingURL=style2.css.map */

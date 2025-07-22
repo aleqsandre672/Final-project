@@ -221,4 +221,122 @@ header #active {
   margin-top: 90px;
   position: absolute;
   color: lightgray;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  header {
+    width: 425px;
+  }
+  header img {
+    height: 70px;
+    margin-left: 30px;
+  }
+  nav a {
+    display: none;
+  }
+  #newses {
+    margin-left: 0px;
+  }
+  #newses #newsvolleyball {
+    margin-top: 20px;
+    display: block;
+    margin-left: 0px;
+    width: 405px;
+    height: 300px;
+  }
+  #newses #newsvolleyball p {
+    font-size: 24px;
+    margin-top: 100px;
+  }
+  #newses #newsvolleyball #creted {
+    margin-top: 30px;
+  }
+  #newses #newsbuilding {
+    margin-top: 20px;
+    display: block;
+    margin-left: 0px;
+    width: 405px;
+    height: 300px;
+  }
+  #newses #newsbuilding p {
+    font-size: 24px;
+    margin-top: 100px;
+  }
+  #newses #newsbuilding #creted2 {
+    margin-top: 30px;
+  }
+  #newses #newstables {
+    margin-top: 20px;
+    display: block;
+    margin-left: 0px;
+    width: 405px;
+    height: 300px;
+  }
+  #newses #newstables p {
+    font-size: 24px;
+    margin-top: 100px;
+  }
+  #newses #newstables #creted3 {
+    margin-top: 30px;
+  }
+  #end {
+    width: 425px;
+    height: 600px;
+  }
+  #end img {
+    height: 70px;
+    margin-left: 20px;
+  }
+  #end a {
+    font-size: 20px;
+  }
+  #end #lists {
+    margin-left: 150px;
+  }
+  #end #universitys {
+    display: inline;
+    margin-left: 150px;
+    margin-top: 300px;
+  }
+  #end p {
+    font-size: 20px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  header {
+    width: 768px;
+  }
+  nav a {
+    display: none;
+  }
+  #newses {
+    margin-left: 0px;
+  }
+  #newses #newsvolleyball {
+    margin-top: 20px;
+    width: 748px;
+    margin-left: 0px;
+  }
+  #newses #newsbuilding {
+    margin-top: 20px;
+    width: 748px;
+    margin-left: 0px;
+  }
+  #newses #newstables {
+    margin-top: 20px;
+    width: 748px;
+    margin-left: 0px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
 }/*# sourceMappingURL=style3.css.map */
