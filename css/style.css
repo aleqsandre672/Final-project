@@ -63,18 +63,19 @@ header {
 }
 header a {
   text-decoration: none;
+  display: inline-block;
   color: black;
   font-size: 26px;
   font-weight: 600;
   vertical-align: top;
-  margin-left: 95px;
+  margin-left: 90px;
 }
 header nav {
   margin-top: 20px;
 }
 header img {
   height: 82px;
-  margin-left: 75px;
+  margin-left: 25px;
 }
 header #active {
   color: white;
@@ -267,8 +268,8 @@ h1 {
 
 #volleyball {
   background-image: url(/img/Brasil_vence_a_França_no_vôlei_masculino_1037987-15.08.2016_ffz-6369.jpg);
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   background-size: cover;
   position: relative;
   display: inline-block;
@@ -282,18 +283,18 @@ h1 {
   border-width: 10px;
 }
 #volleyball p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 80px;
   color: yellow;
 }
 
 #newbuilding {
   background-image: url(/img/istockphoto-94732796-612x612.jpg);
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   background-size: cover;
   position: relative;
   display: inline-block;
@@ -307,7 +308,7 @@ h1 {
   border-width: 10px;
 }
 #newbuilding p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   position: absolute;
   margin-left: 50px;
@@ -317,8 +318,8 @@ h1 {
 
 #tables {
   background-image: url(/img/images.jpg);
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   background-size: cover;
   position: relative;
   display: inline-block;
@@ -332,12 +333,34 @@ h1 {
   border-width: 10px;
 }
 #tables p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   position: absolute;
   margin-left: 50px;
   margin-top: 80px;
   color: yellow;
+}
+
+#dd {
+  margin-left: 100px;
+}
+
+#partners img:hover {
+  width: 220px;
+  height: 220px;
+  transition: 0.5s;
+}
+
+#end a:hover {
+  font-size: 24px;
+  color: white;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: lightgray;
+  font-size: 34px;
+  transition: 0.5s;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
@@ -467,48 +490,48 @@ h1 {
     display: none;
   }
   header {
-    width: 900px;
+    width: 768px;
   }
   #start {
-    width: 900px;
+    width: 768px;
   }
   #start p {
-    margin-left: 290px;
+    margin-left: 200px;
   }
   #slogan {
     margin-left: 0px;
-    width: 900px;
+    width: 768px;
     height: 420px;
   }
   h1 {
-    margin-left: 350px;
+    margin-left: 280px;
   }
   #volleyball {
-    width: 700px;
-    height: 300px;
-    margin-left: 90px;
+    width: 600px;
+    height: 200px;
+    margin-left: 34px;
   }
   #volleyball p {
     font-size: 50px;
   }
   #newbuilding {
-    width: 700px;
-    height: 300px;
-    margin-left: 90px;
+    width: 600px;
+    height: 200px;
+    margin-left: 34px;
   }
   #newbuilding p {
     font-size: 50px;
   }
   #tables {
-    width: 700px;
-    height: 300px;
-    margin-left: 90px;
+    width: 600px;
+    height: 200px;
+    margin-left: 34px;
   }
   #tables p {
     font-size: 50px;
   }
   #partners {
-    width: 900px;
+    width: 768px;
     height: 200px;
   }
   #partners img {
@@ -518,9 +541,15 @@ h1 {
     margin-left: 100px;
   }
   #end {
-    width: 900px;
+    width: 768px;
   }
   #unis {
     margin-left: 250px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

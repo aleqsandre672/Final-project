@@ -18,7 +18,7 @@ header{
   }
    img{
       height: 82px;
-      margin-left: 75px;
+      margin-left: 25px;
    }
    #active{
       color: white;
@@ -130,4 +130,17 @@ hr {
 }
 h1{
     font-size: 36px;
+}
+#end{
+   a:hover{
+      font-size: 24px;
+      color: white;
+      transition: 0.5s;
+      
+   }
+}
+a:hover{
+   color: lightgray;
+   font-size: 34px;
+   transition: 0.5s;
 }

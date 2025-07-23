@@ -18,7 +18,7 @@ header{
   }
    img{
       height: 82px;
-      margin-left: 75px;
+      margin-left: 25px;
    }
    #active{
       color: white;
@@ -144,3 +144,16 @@ a{
     margin-top: 100px;
     color: rgb(244, 163, 24);}
    }
+#end{
+   a:hover{
+      font-size: 24px;
+      color: white;
+      transition: 0.5s;
+      
+   }
+}
+a:hover{
+   color: lightgray;
+   font-size: 34px;
+   transition: 0.5s;
+}
