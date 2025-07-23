@@ -223,4 +223,21 @@ h1 {
   #number {
     display: none;
   }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  header {
+    width: 768px;
+  }
+  header nav a {
+    display: none;
+  }
+  header img {
+    height: 80px;
+  }
+  #gmail {
+    display: none;
+  }
+  #number {
+    display: none;
+  }
 }/*# sourceMappingURL=styles6.css.map */
