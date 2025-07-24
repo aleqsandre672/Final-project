@@ -363,6 +363,10 @@ a:hover {
   transition: 0.5s;
 }
 
+#dd {
+  margin-left: 100px;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   nav > a {
     display: none;
@@ -374,6 +378,7 @@ a:hover {
   header img {
     height: 70px;
     margin-left: 30px;
+    margin-top: 30px;
   }
   #start {
     height: 400px;
@@ -483,6 +488,9 @@ a:hover {
   }
   #number {
     display: none;
+  }
+  #dd {
+    margin-left: 0px;
   }
 }
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
