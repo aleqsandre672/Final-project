@@ -342,7 +342,7 @@ h1 {
 }
 
 #dd {
-  margin-left: 100px;
+  margin-left: 0px;
 }
 
 #partners img:hover {
@@ -368,7 +368,7 @@ a:hover {
     display: none;
   }
   header {
-    height: 70px;
+    height: 100px;
     width: 425px;
   }
   header img {
