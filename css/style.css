@@ -84,7 +84,7 @@ header #active {
 #start {
   height: 400px;
   width: 100%;
-  background-image: url(./img/NES-featured-image.avif);
+  background-image: url("./../img/NES-featured-image.avif");
   background-size: cover;
   top: 80px;
   position: relative;
@@ -267,7 +267,7 @@ h1 {
 }
 
 #volleyball {
-  background-image: url(./img/Brasil_vence_a_França_no_vôlei_masculino_1037987-15.08.2016_ffz-6369.jpg);
+  background-image: url("./../img/Brasil_vence_a_França_no_vôlei_masculino_1037987-15.08.2016_ffz-6369.jpg");
   width: 300px;
   height: 150px;
   background-size: cover;
@@ -292,7 +292,7 @@ h1 {
 }
 
 #newbuilding {
-  background-image: url(./img/istockphoto-94732796-612x612.jpg);
+  background-image: url("./../img/istockphoto-94732796-612x612.jpg");
   width: 300px;
   height: 150px;
   background-size: cover;
@@ -317,7 +317,7 @@ h1 {
 }
 
 #tables {
-  background-image: url(./img/images.jpg);
+  background-image: url("./../img/images.jpg");
   width: 300px;
   height: 150px;
   background-size: cover;

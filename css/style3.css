@@ -84,7 +84,7 @@ header #active {
 }
 
 #newsvolleyball {
-  background-image: url(./img/Brasil_vence_a_França_no_vôlei_masculino_1037987-15.08.2016_ffz-6369.jpg);
+  background-image: url("./../img/Brasil_vence_a_França_no_vôlei_masculino_1037987-15.08.2016_ffz-6369.jpg");
   width: 900px;
   height: 400px;
   background-size: cover;
@@ -112,7 +112,7 @@ header #active {
 }
 
 #newsbuilding {
-  background-image: url(./img/istockphoto-94732796-612x612.jpg);
+  background-image: url("./../img/istockphoto-94732796-612x612.jpg");
   width: 900px;
   height: 400px;
   background-size: cover;
@@ -141,7 +141,7 @@ header #active {
 }
 
 #newstables {
-  background-image: url(./img/images.jpg);
+  background-image: url("./../img/images.jpg");
   width: 900px;
   height: 400px;
   background-size: cover;
