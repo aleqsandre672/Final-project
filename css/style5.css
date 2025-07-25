@@ -48,6 +48,14 @@ ol, ul {
   list-style: none;
 }
 
+i {
+  display: none !important;
+}
+
+nav {
+  display: inline;
+}
+
 header {
   top: 0;
   position: fixed;
@@ -167,6 +175,9 @@ a:hover {
   }
   header img {
     margin-left: 25px;
+    position: absolute;
+    height: 70px;
+    margin-top: 25px;
   }
   #contact {
     margin-left: 0px;
@@ -203,16 +214,28 @@ a:hover {
   #number {
     display: none;
   }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 330px;
+  }
 }
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
   header {
     width: 768px;
   }
+  header nav {
+    display: inline;
+  }
   header nav a {
     display: none;
   }
   header img {
-    height: 80px;
+    position: absolute;
+    margin-top: 25px;
+    height: 70px;
   }
   #contact {
     margin-left: 0px;
@@ -220,5 +243,12 @@ a:hover {
   }
   #contact p {
     margin-left: 250px;
+  }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px;
   }
 }/*# sourceMappingURL=style5.css.map */

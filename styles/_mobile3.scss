@@ -2,8 +2,9 @@ header{
     width: 425px;
      img{
         height: 70px;
-        
+        position: absolute;
         margin-left: 30px;
+        margin-top: 25px;
     }
     
 }
@@ -18,7 +19,7 @@ nav{
         margin-top: 20px;
         display: block;
         margin-left: 0px;
-        width: 405px;
+        width: 385px;
         height: 300px;
         p{
             font-size: 24px;
@@ -32,7 +33,7 @@ nav{
         margin-top: 20px;
         display: block;
         margin-left: 0px;
-        width: 405px;
+        width: 385px;
         height: 300px;
         p{
             font-size: 24px;
@@ -49,7 +50,7 @@ nav{
         margin-top: 20px;
         display: block;
         margin-left: 0px;
-        width: 405px;
+        width: 385px;
         height: 300px;
         p{
             font-size: 24px;
@@ -88,4 +89,11 @@ nav{
 }
 #number{
     display: none;
+}
+i{
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 330px;
 }

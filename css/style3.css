@@ -49,6 +49,10 @@ ol, ul {
   list-style: none;
 }
 
+i {
+  display: none !important;
+}
+
 header {
   top: 0;
   position: fixed;
@@ -235,13 +239,19 @@ a:hover {
   transition: 0.5s;
 }
 
+nav {
+  display: inline;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   header {
     width: 425px;
   }
   header img {
     height: 70px;
+    position: absolute;
     margin-left: 30px;
+    margin-top: 25px;
   }
   nav a {
     display: none;
@@ -253,7 +263,7 @@ a:hover {
     margin-top: 20px;
     display: block;
     margin-left: 0px;
-    width: 405px;
+    width: 385px;
     height: 300px;
   }
   #newses #newsvolleyball p {
@@ -267,7 +277,7 @@ a:hover {
     margin-top: 20px;
     display: block;
     margin-left: 0px;
-    width: 405px;
+    width: 385px;
     height: 300px;
   }
   #newses #newsbuilding p {
@@ -281,7 +291,7 @@ a:hover {
     margin-top: 20px;
     display: block;
     margin-left: 0px;
-    width: 405px;
+    width: 385px;
     height: 300px;
   }
   #newses #newstables p {
@@ -319,10 +329,25 @@ a:hover {
   #number {
     display: none;
   }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 330px;
+  }
 }
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
   header {
     width: 768px;
+  }
+  header img {
+    position: absolute;
+    margin-top: 25px;
+    height: 70px;
+  }
+  nav {
+    display: inline;
   }
   nav a {
     display: none;
@@ -350,5 +375,12 @@ a:hover {
   }
   #number {
     display: none;
+  }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px;
   }
 }/*# sourceMappingURL=style3.css.map */

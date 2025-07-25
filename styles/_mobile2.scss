@@ -7,8 +7,9 @@ header{
     width: 425px;
      img{
         height: 70px;
-        margin-top: 10px;
+        margin-top: 25px;
         margin-left: 30px;
+         position: absolute;
     }
 }
 #begining{
@@ -50,9 +51,18 @@ header{
 }
 #end{
     height: 500px;
+    width: 425px;
     #universitys{
     margin-left: 270px;
     position: absolute;
     margin-top: 270px;
+    
     }
+}
+i{
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 330px;
 }

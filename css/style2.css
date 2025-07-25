@@ -229,6 +229,14 @@ a:hover {
   transition: 0.5s;
 }
 
+i {
+  display: none !important;
+}
+
+nav {
+  display: inline;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   nav a {
     display: none;
@@ -238,8 +246,9 @@ a:hover {
   }
   header img {
     height: 70px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 30px;
+    position: absolute;
   }
   #begining {
     margin-left: 100px;
@@ -279,16 +288,32 @@ a:hover {
   }
   #end {
     height: 500px;
+    width: 425px;
   }
   #end #universitys {
     margin-left: 270px;
     position: absolute;
     margin-top: 270px;
   }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 330px;
+  }
 }
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
   header {
     width: 768px;
+  }
+  header img {
+    position: absolute;
+    margin-top: 25px;
+    height: 70px;
+  }
+  nav {
+    display: inline;
   }
   nav a {
     display: none;
@@ -322,5 +347,12 @@ a:hover {
   }
   #number {
     display: none;
+  }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px;
   }
 }/*# sourceMappingURL=style2.css.map */

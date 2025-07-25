@@ -1,13 +1,14 @@
  nav > a{
     display: none;
-}
+ }
 header{
     height: 100px;
     width: 425px;
     img{
         height: 70px;
         margin-left: 30px;
-        margin-top: 30px;
+        margin-top: 45px;
+        position: absolute;
     }
     
 }
@@ -127,4 +128,11 @@ h1{
 }
 #dd{
     margin-left: 0px;
+}
+i{
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 30px;
+    margin-left: 330px;
 }

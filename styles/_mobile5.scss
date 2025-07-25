@@ -7,6 +7,9 @@ header{
     }
     img{
         margin-left: 25px;
+        position: absolute;
+        height: 70px;
+        margin-top: 25px;
     }
 }
 #contact{
@@ -45,4 +48,11 @@ header{
 }
 #number{
     display: none;
+}
+i{
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 330px;
 }

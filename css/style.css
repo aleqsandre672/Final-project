@@ -69,13 +69,16 @@ header a {
   font-weight: 600;
   vertical-align: top;
   margin-left: 90px;
+  margin-top: 25px;
 }
 header nav {
   margin-top: 20px;
 }
 header img {
   height: 82px;
-  margin-left: 25px;
+  margin-left: 55px;
+  display: inline-block;
+  margin-top: 20px;
 }
 header #active {
   color: white;
@@ -367,6 +370,14 @@ a:hover {
   margin-left: 100px;
 }
 
+nav {
+  display: inline;
+}
+
+i {
+  display: none !important;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   nav > a {
     display: none;
@@ -378,7 +389,8 @@ a:hover {
   header img {
     height: 70px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 45px;
+    position: absolute;
   }
   #start {
     height: 400px;
@@ -492,13 +504,26 @@ a:hover {
   #dd {
     margin-left: 0px;
   }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 30px;
+    margin-left: 330px;
+  }
 }
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  nav {
+    display: inline;
+  }
   nav a {
     display: none;
   }
   header {
     width: 768px;
+  }
+  header img {
+    position: absolute;
   }
   #start {
     width: 768px;
@@ -562,5 +587,12 @@ a:hover {
   }
   #dd {
     margin-left: 50px;
+  }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px;
   }
 }/*# sourceMappingURL=style.css.map */

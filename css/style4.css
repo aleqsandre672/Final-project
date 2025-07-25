@@ -48,6 +48,14 @@ ol, ul {
   list-style: none;
 }
 
+i {
+  display: none !important;
+}
+
+nav {
+  display: inline;
+}
+
 header {
   top: 0;
   position: fixed;
@@ -218,7 +226,8 @@ a:hover {
   header img {
     height: 70px;
     margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 25px;
+    position: absolute;
   }
   .allservices {
     width: 405px;
@@ -284,16 +293,28 @@ a:hover {
   #number {
     display: none;
   }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 340px;
+  }
 }
 @media screen and (min-device-width: 767px) and (max-device-width: 1024px) {
   header {
     width: 768px;
   }
+  header nav {
+    display: inline;
+  }
   header nav a {
     display: none;
   }
   header img {
-    height: 80px;
+    margin-top: 25px;
+    height: 70px;
+    position: absolute;
   }
   .allservices {
     width: 748px;
@@ -321,5 +342,12 @@ a:hover {
   }
   #number {
     display: none;
+  }
+  i {
+    display: inline-block !important;
+    font-size: 50px !important;
+    color: white;
+    margin-top: 20px;
+    margin-left: 700px;
   }
 }/*# sourceMappingURL=style4.css.map */
